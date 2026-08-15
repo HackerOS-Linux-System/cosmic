@@ -6,7 +6,7 @@
 
 [metadata]
 -> name    => cosmic
--> version => 1.4.0
+-> version => 1.0.15
 -> authors => HackerOS Team <hackeros068@gmail.com> (upstream: System76 / pop-os)
 -> license => GPL-3.0-or-later
 -> gui     => true
@@ -40,9 +40,10 @@
               Smithay, cosmic-session, cosmic-panel, cosmic-launcher, cosmic-files,
               cosmic-settings i inne) napisanych w Rust przy użyciu biblioteki widżetów
               Iced/libcosmic. Ten pakiet HPM buduje całość ze źródeł z oficjalnego
-              repozytorium-superprojektu cosmic-epoch (tag epoch-1.4.0) i instaluje
+              repozytorium-superprojektu cosmic-epoch (tag epoch-1.0.15) i instaluje
               wynikowe binaria oraz zasoby (ikony, schematy, pliki .desktop komponentów)
-              do ~/.hackeros/hpm/store/cosmic/. Ze względu na to, że jest to pełne
+              do ~/.hackeros/hpm/store/cosmic/. To wydanie odpowiada tagowi upstream
+              epoch-1.0.15. Ze względu na to, że jest to pełne
               środowisko graficzne, a nie aplikacja, ma ono świadomie wyłączony
               standardowy sandbox hpm (potrzebuje bezpośredniego dostępu do
               /dev/dri, seat/logind i gniazd Wayland/DBus, czego namespaces by nie
