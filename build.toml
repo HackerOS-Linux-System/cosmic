@@ -17,7 +17,7 @@
 type = "build"
 
 commands = [
-    "git clone --recurse-submodules --depth 1 --branch epoch-1.4.0 https://github.com/pop-os/cosmic-epoch.git _src",
+    "git clone --recurse-submodules --depth 1 --branch epoch-1.0.15 https://github.com/pop-os/cosmic-epoch.git _src",
     "cd _src && just build",
     "cd _src && just rootdir=\"$(pwd)/../_install\" install",
 ]
